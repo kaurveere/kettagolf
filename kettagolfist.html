@@ -53,57 +53,93 @@
 	    </div>
     </div>
   </nav>
+  <!--Lehe eesosa-->
 
+  <h1 class="text-center">KETTAGOLFIST</h1>
+  <P>Lühikirjeldus discgolfi kohta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</P>
   
-  <!--Tooted avalehel kaartidena-->
-  <div class="container overflow-hidden">
-    <div class="row g-4 row justify-content-center">
-      <div class="col-xl-3 col-md-6">
-        <div class="card">
-          <img src="stephan-seeber-NzAfGi8XuA4-unsplash.jpg" class="card-img-top" alt="pilt">
-          <div class="card-body">
-            <h5 class="card-title text-primary-emphasis">Saapad 1</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam lectus, egestas at
-              pretium lobortis.</p>
-            <a href="toode.html" class="btn btn-primary float-end">199 €</a>
-          </div>
+  <!--Accordion teemade kaupa-->
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            REEGLID
+        </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="card-body">
+          Valdavalt on rajal 18 korvi ning igaühel neist on väärtus ehk par. See tähistab optimaalset visete arvu millega kogenud mängija ketas võiks korvi jõuda.
+            <br><br>
+          <span class="d-inline-block bg-purple text-white p-3 rounded">  Näiteks par 3 tähendab, et ketas võiks korvi jõuda kolme viskega. </span> 
+            <br><br>
+          Korviväärtuse leiab esimese viskekoha tiiala juures olevalt rajakaardilt. Kõige enam on levinud par 3 korvid. Raja koguväärtus on kõikide korviväärtusete summa.
+            <br><br>
+          <span class="d-inline-block bg-purple text-white p-3 rounded">  
+            Siinpuhul on par 3 ning raja pikkuseks 105 meetrit.<br> Kaardil on välja toodud raja profiil ja olulisemad lisamärkused. 
+              <br>
+            <img src="img\elvarada.jpg" alt="elvarada" style="width: 300px; height: 300px; margin-right: 10px;">
+          </span>
+            <br><br>
+          Eesmärk on läbida rada võimalikult väheste visetega. Lõpptulemus on kõikide korvide pealt teenitud punktide summa.
+            <br><br>
+          <span class="d-inline-block bg-purple text-white p-3 rounded">
+            Punktide lugemine näiteks par 3 korvil:
+            <ul class="mb-0">
+              <li>kaks viset = -1</li>
+              <li>kolm viset = 0</li>
+              <li>viis viset = +2</li>
+            </ul>
+          </span>
         </div>
       </div>
-      <div class="col-xl-3 col-md-6">
-        <div class="card">
-          <img src="stephan-seeber-NzAfGi8XuA4-unsplash.jpg" class="card-img-top" alt="pilt">
-          <div class="card-body">
-            <h5 class="card-title text-primary-emphasis">Saapad 2</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam lectus, egestas at
-              pretium lobortis.</p>
-            <a href="#" class="btn btn-primary float-end"><s>149 €</s> 99 € </a>
-          </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            KETTATÜÜBID
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.
         </div>
       </div>
-      <div class="col-xl-3 col-md-6">
-        <div class="card">
-          <img src="stephan-seeber-NzAfGi8XuA4-unsplash.jpg" class="card-img-top" alt="pilt">
-          <div class="card-body">
-            <h5 class="card-title text-primary-emphasis">Saapad 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam lectus, egestas at
-              pretium lobortis.</p>
-            <a href="#" class="btn btn-primary float-end"><s>159 €</s> 79 €</a>
-          </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            KUIDAS VALIDA KETAST
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.
         </div>
       </div>
-      <div class="col-xl-3  col-md-6">
-        <div class="card">
-          <img src="stephan-seeber-NzAfGi8XuA4-unsplash.jpg" class="card-img-top" alt="pilt">
-          <div class="card-body">
-            <h5 class="card-title text-primary-emphasis">Saapad 4</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam lectus, egestas at
-              pretium lobortis.</p>
-            <a href="#" class="btn btn-primary float-end"><s>129 €</s> 69 €</a>
-          </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            VISKETEHNIKA
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.
         </div>
       </div>
     </div>
   </div>
+  
+  
   
   <!--Jalus-->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 mt-3 border-top bg-main" data-bs-theme="dark">

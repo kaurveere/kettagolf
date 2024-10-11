@@ -72,3 +72,23 @@ body
 .rounded-top {
     border-radius: 10% 10% 0 0;
 }
+
+.bg-purple {
+    background-color: lightskyblue !important;
+}
+
+.accordion-button {
+    color: black; /* Change to any desired color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Optional: Makes the font bold */
+}
+  
+.accordion-button:focus, .accordion-button:not(.collapsed) {
+    box-shadow: none; /* Removes the blue focus outline */
+}
+  
+.accordion-button:hover {
+    color: darkslategray; /* Optional: Change color on hover */
+    text-decoration: none; /* Ensures underline stays removed */
+}
+  
