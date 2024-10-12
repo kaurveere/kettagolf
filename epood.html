@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<!-- Navigatsioon --->
+  <!-- Navigatsioon --->
   <nav class="navbar navbar-expand-lg bg-main py-3" data-bs-theme="dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -26,52 +26,56 @@
       <a class="navbar-brand me-5 upper bold" href="index.html">Kettagolf</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link upper" href="kettagolfist.html" role="button">
               Kettagolfist
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link upper" href="epood.html" role="button">
               E-pood
             </a>
           </li>
         </ul>
-       
-		<!--Otsi vorm -->
-        <form class="d-flex me-1">
-          <div class="input-group">
+      
+    <!--Otsi vorm -->
+        <form class="d-flex me-4">
+          <div class="input-group my-2 nav-search">
             <div class="input-group-text"><span class="bi bi-search mb-2"></span></div>
             <input class="form-control" type="search" placeholder="Otsi" aria-label="Search">
           </div>
         </form>
       </div>
 
-      <div class="float-end">
-	      <!--Ostukorvi ikoon-->
-        <a class="btn btn-primary" href="#" type="submit"><span class="bi bi-cart3"></span></button></a>
-	    </div>
+      <div class="float-end pl-5">
+        <!--Ostukorvi ikoon-->
+        <a class="btn-icon-only" href="ostukorv.html" type="submit"><span class="bi bi-cart3"></span></button></a>
+      </div>
     </div>
   </nav>
 
   
-<!-- Tooted avalehel kaartidena -->
 <div class="container overflow-hidden">
-  <div class="row g-4 justify-content-center">
+  <!-- Pealkiri -->
+  <h1 class="upper text-center my-4">E-pood</h1>
+  <h5 class="text-center">Meie laia tootevaliku hulgast leiab mängimiseks vajaliku nii algaja kui ka edasijõudnud mängija.</h5>
+  <div></div>
+  <!-- Tooted kaartidena -->
+  <div class="row g-4 py-5 justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="luhimaakettad.html" class="card-link">
+          <a href="tootevalik.html" class="card-link">
               <div class="card">
-                  <img src="img/luhimaaketas.png" class="card-img-top" alt="pilt">
+                  <img src="img/luhimaaketas.png" class="card-img-top p-2" alt="pilt">
                   <div class="card-body">
-                      <h5 class="card-title text-primary-emphasis">Lühimaa kettad</h5>
+                      <h5 class="card-title category-label">Lühimaa kettad</h5>
                   </div>
               </div>
           </a>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="keskmaakettad.html" class="card-link">
+          <a href="tootevalik.html" class="card-link">
               <div class="card">
-                  <img src="img/keskmaaketas.png" class="card-img-top" alt="pilt">
+                  <img src="img/keskmaaketas.png" class="card-img-top p-2" alt="pilt">
                   <div class="card-body">
                       <h5 class="card-title text-primary-emphasis">Keskmaa kettad</h5>
                   </div>
@@ -79,9 +83,9 @@
           </a>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="kaugmaakettad.html" class="card-link">
+          <a href="tootevalik.html" class="card-link">
               <div class="card">
-                  <img src="img/kaugmaaketas.jpg" class="card-img-top" alt="pilt">
+                  <img src="img/kaugmaaketas.jpg" class="card-img-top p-2" alt="pilt">
                   <div class="card-body">
                       <h5 class="card-title text-primary-emphasis">Kaugmaa kettad</h5>
                   </div>
@@ -89,9 +93,9 @@
           </a>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="korvid.html" class="card-link">
+          <a href="tootevalik.html" class="card-link">
               <div class="card">
-                  <img src="img/korv.jpg" class="card-img-top" alt="pilt">
+                  <img src="img/korv.jpg" class="card-img-top p-2" alt="pilt">
                   <div class="card-body">
                       <h5 class="card-title text-primary-emphasis">Discgolfi korvid</h5>
                   </div>
@@ -99,9 +103,9 @@
           </a>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="kott.html" class="card-link">
+          <a href="tootevalik.html" class="card-link">
               <div class="card">
-                  <img src="img/kott.jpg" class="card-img-top" alt="pilt">
+                  <img src="img/kott.jpg" class="card-img-top p-2" alt="pilt">
                   <div class="card-body">
                       <h5 class="card-title text-primary-emphasis">Kotid ja kärud</h5>
                   </div>
@@ -109,9 +113,9 @@
           </a>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="muuvarustus.html" class="card-link">
+          <a href="tootevalik.html" class="card-link">
               <div class="card">
-                  <img src="img/muuvarustus.jpg" class="card-img-top" alt="pilt">
+                  <img src="img/muuvarustus.jpg" class="card-img-top p-2" alt="pilt">
                   <div class="card-body">
                       <h5 class="card-title text-primary-emphasis">Muu varustus</h5>
                   </div>
@@ -125,16 +129,15 @@
   
   <!--Jalus-->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 mt-3 border-top bg-main" data-bs-theme="dark">
-    <ul class="col-md-4 list-group d-flex footer-list">
+    <ul class="col-md-4 list-group d-flex list-unstyled">
       <li><p class="text-body-secondary">kettagolf@meil.ee</p></li>
       <li><p class="text-body-secondary">+372 5432 1234</p></li>
       <li><p class="text-body-secondary">Metsa 45, Tartu</p></li>
     </ul>
 
-    <ul class="nav col-md-4 m-6 justify-content-end list-unstyled d-flex">
-      <li class="ms-5"><a class="text-body-secondary" href="#"><i class="bi bi-facebook h1"></i></a></li>
-      <li class="ms-5"><a class="text-body-secondary" href="#"><i class="bi bi-instagram h1"></i></a></li>
-      <li class="ms-5"><a class="text-body-secondary" href="#"><i class="bi bi-twitter h1"></i></a></li>
+    <ul class="nav col-md-4 m-6 justify-content-between align-items-end list-unstyled d-flex flex-column">
+      <li class="mb-3"><a class="text-body-secondary" href="#"><img src="img/facebook.png" width="50" height="50"></a></li>
+      <li class="ms-5"><a class="text-body-secondary" href="#"><img src="img/instagram.png" width="50" height="50"></i></a></li>
     </ul>
   </footer>
   

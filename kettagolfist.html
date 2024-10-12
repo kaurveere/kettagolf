@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="style/custom.css">
 </head>
 
-<body>
-<!-- Navigatsioon --->
+<body class="short-page">
+  <!-- Navigatsioon --->
   <nav class="navbar navbar-expand-lg bg-main py-3" data-bs-theme="dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -26,133 +26,134 @@
       <a class="navbar-brand me-5 upper bold" href="index.html">Kettagolf</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link upper" href="kettagolfist.html" role="button">
               Kettagolfist
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link upper" href="epood.html" role="button">
               E-pood
             </a>
           </li>
         </ul>
-       
-		<!--Otsi vorm -->
-        <form class="d-flex me-1">
-          <div class="input-group">
+      
+    <!--Otsi vorm -->
+        <form class="d-flex me-4">
+          <div class="input-group my-2 nav-search">
             <div class="input-group-text"><span class="bi bi-search mb-2"></span></div>
             <input class="form-control" type="search" placeholder="Otsi" aria-label="Search">
           </div>
         </form>
       </div>
 
-      <div class="float-end">
-	      <!--Ostukorvi ikoon-->
-        <a class="btn btn-primary" href="#" type="submit"><span class="bi bi-cart3"></span></button></a>
-	    </div>
+      <div class="float-end pl-5">
+        <!--Ostukorvi ikoon-->
+        <a class="btn-icon-only" href="ostukorv.html" type="submit"><span class="bi bi-cart3"></span></button></a>
+      </div>
     </div>
   </nav>
-  <!--Lehe eesosa-->
 
-  <h1 class="text-center">KETTAGOLFIST</h1>
-  <P>Lühikirjeldus discgolfi kohta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</P>
-  
-  <!--Accordion teemade kaupa-->
-  <div class="accordion" id="accordionExample">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            REEGLID
-        </button>
-        </h5>
-      </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="card-body">
-          Valdavalt on rajal 18 korvi ning igaühel neist on väärtus ehk par. See tähistab optimaalset visete arvu millega kogenud mängija ketas võiks korvi jõuda.
-            <br><br>
-          <span class="d-inline-block bg-purple text-white p-3 rounded">  Näiteks par 3 tähendab, et ketas võiks korvi jõuda kolme viskega. </span> 
-            <br><br>
-          Korviväärtuse leiab esimese viskekoha tiiala juures olevalt rajakaardilt. Kõige enam on levinud par 3 korvid. Raja koguväärtus on kõikide korviväärtusete summa.
-            <br><br>
-          <span class="d-inline-block bg-purple text-white p-3 rounded">  
-            Siinpuhul on par 3 ning raja pikkuseks 105 meetrit.<br> Kaardil on välja toodud raja profiil ja olulisemad lisamärkused. 
-              <br>
-            <img src="img\elvarada.jpg" alt="elvarada" style="width: 300px; height: 300px; margin-right: 10px;">
-          </span>
-            <br><br>
-          Eesmärk on läbida rada võimalikult väheste visetega. Lõpptulemus on kõikide korvide pealt teenitud punktide summa.
-            <br><br>
-          <span class="d-inline-block bg-purple text-white p-3 rounded">
-            Punktide lugemine näiteks par 3 korvil:
-            <ul class="mb-0">
-              <li>kaks viset = -1</li>
-              <li>kolm viset = 0</li>
-              <li>viis viset = +2</li>
-            </ul>
-          </span>
+  <section class="py-5 short-section">
+    <div class="container">
+      <!--Lehe eesosa-->
+      <h1 class="upper text-center">Kettagolfist</h1>
+      <h5 class="my-4">Lühikirjeldus discgolfi kohta:<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus.<br> Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</h5>
+      
+      <!--Accordion teemade kaupa-->
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              REEGLID
+            </button>
+          </h2>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="p-4">
+              Valdavalt on rajal 18 korvi ning igaühel neist on väärtus ehk <strong>par</strong>. See tähistab optimaalset visete arvu, millega kogenud mängija ketas võiks korvi jõuda.
+                <br><br>
+              <span class="d-inline-block bg-card text-white p-3 rounded">  Näiteks par 3 tähendab, et ketas võiks korvi jõuda kolme viskega. </span> 
+                <br><br>
+              Korviväärtuse leiab esimese viskekoha tiiala juures olevalt <strong>rajakaardilt</strong>. Kõige enam on levinud par 3 korvid. Raja koguväärtus on kõikide korviväärtusete summa.
+                <br><br>
+              <span class="d-inline-block bg-card text-white p-3 rounded">  
+                Siinpuhul on par 3 ning raja pikkuseks 105 meetrit.<br> Kaardil on välja toodud raja profiil ja olulisemad lisamärkused. 
+                  <br><br>
+                <img src="img\elvarada.jpg" alt="elvarada" style="width: 300px; height: 300px; margin-right: 10px;">
+              </span>
+                <br><br>
+              Eesmärk on läbida rada võimalikult väheste visetega. Lõpptulemus on kõikide korvide pealt teenitud punktide summa.
+                <br><br>
+              <span class="d-inline-block bg-card text-white p-3 rounded">
+                Punktide lugemine näiteks par 3 korvil:
+                <ul class="mb-0">
+                  <li>kaks viset = -1</li>
+                  <li>kolm viset = 0</li>
+                  <li>viis viset = +2</li>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              KETTATÜÜBID
+            </button>
+          </h5>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="p-4">
+              <h5>Lühimaa kettad</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</p>
+              <h5>Keskmaa kettad</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</p>
+              <h5>Kaugmaa kettad</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</p>
+              <a class="btn btn-primary" href="epood.html" role="button">Vaata kettaid meie e-poest</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              KUIDAS VALIDA KETAST
+            </button>
+          </h5>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="p-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</p>
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/t7_DtVjRKL8?si=D-39xytZeHJrth8O"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h5 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              VISKETEHNIKA
+            </button>
+          </h5>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="p-4">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.</p>
+              <iframe width="420" height="315" src="https://www.youtube.com/embed/bNDurgbu8s0?si=k9PkSPMoIK52Xp_i"></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            KETTATÜÜBID
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            KUIDAS VALIDA KETAST
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            VISKETEHNIKA
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at sem interdum, ultrices libero sed, iaculis lacus. Vivamus maximus vulputate orci, quis sagittis odio dignissim id. Integer et lorem accumsan, molestie sem fringilla, pretium lectus. Mauris rutrum ligula et orci porta pharetra non viverra lacus. Ut feugiat sodales eleifend. Morbi egestas quam vitae augue malesuada iaculis eu a urna. Vestibulum sit amet semper urna. Integer in bibendum sapien. Praesent dictum, est hendrerit elementum bibendum, turpis felis eleifend tellus, at scelerisque purus dui non velit. Suspendisse vitae ipsum urna. Morbi ornare sit amet eros in rhoncus.
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
   
-  
-  
-  <!--Jalus-->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-5 mt-3 border-top bg-main" data-bs-theme="dark">
-    <ul class="col-md-4 list-group d-flex footer-list">
+    <ul class="col-md-4 list-group d-flex list-unstyled">
       <li><p class="text-body-secondary">kettagolf@meil.ee</p></li>
       <li><p class="text-body-secondary">+372 5432 1234</p></li>
       <li><p class="text-body-secondary">Metsa 45, Tartu</p></li>
     </ul>
 
-    <ul class="nav col-md-4 m-6 justify-content-end list-unstyled d-flex">
-      <li class="ms-5"><a class="text-body-secondary" href="#"><i class="bi bi-facebook h1"></i></a></li>
-      <li class="ms-5"><a class="text-body-secondary" href="#"><i class="bi bi-instagram h1"></i></a></li>
-      <li class="ms-5"><a class="text-body-secondary" href="#"><i class="bi bi-twitter h1"></i></a></li>
+    <ul class="nav col-md-4 m-6 justify-content-between align-items-end list-unstyled d-flex flex-column">
+      <li class="mb-3"><a class="text-body-secondary" href="#"><img src="img/facebook.png" width="50" height="50"></a></li>
+      <li class="ms-5"><a class="text-body-secondary" href="#"><img src="img/instagram.png" width="50" height="50"></i></a></li>
     </ul>
   </footer>
   

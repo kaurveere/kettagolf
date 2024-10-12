@@ -59,26 +59,8 @@ body
     box-shadow: none;
 }
 
-.home-card {
-    padding: 0;
-    margin: 0;
-    border-radius: 10%;
-}
-
-.home-card img {
-    margin: 0;
-}
-
-.rounded-top {
-    border-radius: 10% 10% 0 0;
-}
-
-.bg-purple {
-    background-color: lightskyblue !important;
-}
-
 .accordion-button {
-    color: black; /* Change to any desired color */
+    color: black;
     text-decoration: none; /* Removes underline */
     font-weight: bold; /* Optional: Makes the font bold */
 }
@@ -91,4 +73,78 @@ body
     color: darkslategray; /* Optional: Change color on hover */
     text-decoration: none; /* Ensures underline stays removed */
 }
-  
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--light-bg);
+    color: white;
+}
+
+
+.home-card {
+    border-radius: 10px;
+}
+
+.banner1 {
+    background: linear-gradient( rgba(9, 7, 74, 0.7), rgba(9, 7, 74, 0.7) ), url('../img/kettagolf.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.banner1 h1, .banner2 h1 {
+    font-size: 4rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.banner2 {
+    background: linear-gradient( rgba(9, 7, 74, 0.6), rgba(9, 7, 74, 0.6) ), url('../img/e-pood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 30rem;
+}
+
+.card-link, .banner-link, .carousel-link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.card-link h5, .carousel-link h3 {
+    font-weight: bold;
+}
+
+.carousel-link h3 {
+    color: white;
+}
+
+.card-link:hover, .banner-link:hover, .carousel-link:hover {
+    text-decoration: underline;
+}
+
+.banner-link:hover, .carousel-link:hover {
+    text-decoration-color: white;
+}
+
+.banner-link:hover .banner2 {
+    background: linear-gradient( rgba(9, 7, 74, 0.8), rgba(9, 7, 74, 0.8) ), url('../img/e-pood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.short-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.short-section {
+    flex: 1;
+}
+
+@media only screen and (min-width: 992px) {
+    .banner1 {
+        border-radius: 10px 0 0 10px;
+    }
+}
